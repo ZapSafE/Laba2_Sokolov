@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.WindowAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="WindowAdd" Height="272" Width="270" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,-6">
+        <TextBox x:Name="textBox_Name" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="134" Height="34"/>
+        <TextBox x:Name="textBox_Age" HorizontalAlignment="Center" Margin="0,49,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135" Height="34"/>
+        <TextBox x:Name="textBox_Password" HorizontalAlignment="Center" Margin="0,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="134" Height="34"/>
+        <TextBox x:Name="textBox_Status" HorizontalAlignment="Center" Margin="0,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135" Height="34"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="21,14,0,0" VerticalAlignment="Top"/>
+        <Label Content="Age" HorizontalAlignment="Left" Margin="31,53,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="3,92,0,0" VerticalAlignment="Top"/>
+        <Label Content="Status" HorizontalAlignment="Left" Margin="20,131,0,0" VerticalAlignment="Top"/>
+        <Button Content="Добавить" HorizontalAlignment="Center" Height="38" Margin="0,182,0,0" VerticalAlignment="Top" Width="135" Click="Button_Click"/>
+
+    </Grid>
+</Window>
